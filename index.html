@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[ВАШ БРЕНД] — Profesjonalne remonty w Polsce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#home" class="nav-logo">[ВАШ <span>БРЕНД]</span></a>
+  <ul class="nav-links">
+    <li><a href="#packages">Pakiety</a></li>
+    <li><a href="#calculator">Kalkulator</a></li>
+    <li><a href="#portfolio">Realizacje</a></li>
+    <li><a href="#reviews">Opinie</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Zamów remont</a>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-decor"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Remonty w Polsce</div>
+    <h1>Twój wymarzony <em>remont</em> pod klucz</h1>
+    <p class="hero-desc">Profesjonalne remonty mieszkań i domów w całej Polsce. Trzy pakiety dopasowane do Twojego budżetu — gwarancja jakości i terminowość.</p>
+    <div class="hero-btns">
+      <a href="#calculator" class="btn-primary">Oblicz koszt</a>
+      <a href="#packages" class="btn-outline">Nasze pakiety</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item"><div class="stat-num">340+</div><div class="stat-label">Zrealizowanych projektów</div></div>
+    <div class="stat-item"><div class="stat-num">8</div><div class="stat-label">Lat doświadczenia</div></div>
+    <div class="stat-item"><div class="stat-num">98%</div><div class="stat-label">Zadowolonych klientów</div></div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages">
+  <div class="packages-header reveal">
+    <div class="section-tag">Cennik</div>
+    <div class="section-title">Wybierz swój <em>pakiet</em></div>
+    <p class="section-sub" style="margin:0 auto">Każdy pakiet zawiera kompleksową usługę. Cena podana za 1 m² powierzchni.</p>
+  </div>
+  <div class="packages-grid">
+    <div class="package-card standard reveal">
+      <div class="package-badge">Standard</div>
+      <div class="package-name">Podstawowy</div>
+      <p class="package-desc">Solidny remont w rozsądnej cenie</p>
+      <div class="package-price-wrap"><span class="package-price">450</span><span class="package-price-unit">zł / m²</span></div>
+      <div class="package-divider"></div>
+      <ul class="package-features">
+        <li><div class="feat-icon">✓</div>Wyrównanie ścian i sufitów</li>
+        <li><div class="feat-icon">✓</div>Malowanie 2 kolory</li>
+        <li><div class="feat-icon">✓</div>Układanie podłogi (materiał klienta)</li>
+        <li><div class="feat-icon">✓</div>Instalacja gniazdek i przełączników</li>
+        <li><div class="feat-icon">✓</div>Drzwi wewnętrzne (montaż)</li>
+        <li><div class="feat-icon">✓</div>Sprzątanie po remoncie</li>
+      </ul>
+    </div>
+    <div class="package-card classic reveal">
+      <div class="package-popular">Popularny</div>
+      <div class="package-badge">Classic</div>
+      <div class="package-name">Klasyczny</div>
+      <p class="package-desc">Optymalny stosunek ceny do jakości</p>
+      <div class="package-price-wrap"><span class="package-price">750</span><span class="package-price-unit">zł / m²</span></div>
+      <div class="package-divider"></div>
+      <ul class="package-features">
+        <li><div class="feat-icon">✓</div>Wszystko z pakietu Podstawowego</li>
+        <li><div class="feat-icon">✓</div>Glazura i terakota (łazienka / kuchnia)</li>
+        <li><div class="feat-icon">✓</div>Podwieszane sufity LED</li>
+        <li><div class="feat-icon">✓</div>Projekt wnętrza 2D</li>
+        <li><div class="feat-icon">✓</div>Podłogi premium (panel, deska)</li>
+        <li><div class="feat-icon">✓</div>Gwarancja 2 lata</li>
+      </ul>
+    </div>
+    <div class="package-card premium reveal">
+      <div class="package-badge">Premium</div>
+      <div class="package-name">Ekskluzywny</div>
+      <p class="package-desc premium-desc">Luksusowe wykończenie pod klucz</p>
+      <div class="package-price-wrap"><span class="package-price">1 200</span><span class="package-price-unit">zł / m²</span></div>
+      <div class="package-divider"></div>
+      <ul class="package-features">
+        <li><div class="feat-icon">✓</div>Wszystko z pakietu Klasycznego</li>
+        <li><div class="feat-icon">✓</div>Projekt 3D + wizualizacje</li>
+        <li><div class="feat-icon">✓</div>Materiały premium w cenie</li>
+        <li><div class="feat-icon">✓</div>Inteligentny dom (smart home)</li>
+        <li><div class="feat-icon">✓</div>Meble na wymiar (kuchnia)</li>
+        <li><div class="feat-icon">✓</div>Gwarancja 5 lat + opieka po remoncie</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calculator">
+  <div class="calc-wrapper">
+    <div class="reveal">
+      <div class="section-tag">Kalkulator</div>
+      <div class="section-title">Oblicz koszt <em>remontu</em></div>
+      <p class="section-sub calc-sub">Podaj powierzchnię i wybierz pakiet — otrzymasz szacunkowy kosztorys natychmiast.</p>
+    </div>
+    <div class="calc-layout">
+      <div class="calc-form reveal">
+        <div class="calc-field">
+          <label>Powierzchnia (m²)</label>
+          <input type="range" class="calc-range" id="areaRange" min="20" max="300" value="60" oninput="updateCalc()">
+          <div class="range-labels"><span>20 m²</span><span id="areaVal">60 m²</span><span>300 m²</span></div>
+        </div>
+        <div class="calc-field">
+          <label>Lub wpisz ręcznie (m²)</label>
+          <input type="number" id="areaInput" placeholder="np. 75" min="1" max="1000" oninput="syncInput()">
+        </div>
+        <div class="calc-field">
+          <label>Pakiet</label>
+          <select id="packageSelect" onchange="updateCalc()">
+            <option value="450">Podstawowy — 450 zł/m²</option>
+            <option value="750" selected>Klasyczny — 750 zł/m²</option>
+            <option value="1200">Ekskluzywny — 1 200 zł/m²</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label>Typ nieruchomości</label>
+          <select id="propType" onchange="updateCalc()">
+            <option value="1">Mieszkanie</option>
+            <option value="1.1">Dom</option>
+            <option value="1.2">Biuro / lokal usługowy</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-result reveal">
+        <div class="result-label">Szacunkowy koszt</div>
+        <div class="result-value" id="totalPrice">45 000</div>
+        <div class="result-pln">złotych</div>
+        <div class="result-breakdown">
+          <div class="breakdown-row"><span>Pakiet</span><strong id="bPkg">Klasyczny</strong></div>
+          <div class="breakdown-row"><span>Powierzchnia</span><strong id="bArea">60 m²</strong></div>
+          <div class="breakdown-row"><span>Cena za m²</span><strong id="bPpm">750 zł</strong></div>
+          <div class="breakdown-row"><span>Typ obiektu</span><strong id="bType">Mieszkanie</strong></div>
+          <div class="breakdown-row total-row"><span>Łącznie</span><strong id="bTotal">45 000 zł</strong></div>
+        </div>
+        <button class="calc-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Zamów bezpłatną wycenę →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="portfolio-header reveal">
+    <div class="section-tag">Portfolio</div>
+    <div class="section-title">Nasze <em>realizacje</em></div>
+    <p class="section-sub" style="margin:0 auto">Każdy projekt to historia — od pustych ścian do wymarzonego wnętrza.</p>
+  </div>
+
+  <div class="portfolio-filters reveal">
+    <button class="filter-btn active" data-filter="all">Wszystkie</button>
+    <button class="filter-btn" data-filter="standard">Podstawowy</button>
+    <button class="filter-btn" data-filter="classic">Klasyczny</button>
+    <button class="filter-btn" data-filter="premium">Ekskluzywny</button>
+  </div>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-item large reveal" data-category="premium">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto1.jpg" alt="Apartament Warszawa"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🏠</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Ekskluzywny</div>
+          <div class="overlay-title">Apartament — Warszawa</div>
+          <div class="overlay-meta"><span>📐 95 m²</span><span>📅 42 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag premium-tag">Ekskluzywny</span>
+        <div class="project-title">Apartament na Mokotowie</div>
+        <div class="project-meta">Warszawa · 95 m² · Smart home · Meble na wymiar</div>
+      </div>
+    </div>
+
+    <div class="portfolio-item reveal" data-category="classic">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto2.jpg" alt="Łazienka Kraków"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🛁</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Klasyczny</div>
+          <div class="overlay-title">Łazienka — Kraków</div>
+          <div class="overlay-meta"><span>📐 8 m²</span><span>📅 10 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag classic-tag">Klasyczny</span>
+        <div class="project-title">Łazienka z prysznicem walk-in</div>
+        <div class="project-meta">Kraków · 8 m² · Płytki wielkoformatowe · LED</div>
+      </div>
+    </div>
+
+    <div class="portfolio-item reveal" data-category="standard">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto3.jpg" alt="Kuchnia Wrocław"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🍳</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Podstawowy</div>
+          <div class="overlay-title">Kuchnia — Wrocław</div>
+          <div class="overlay-meta"><span>📐 12 m²</span><span>📅 7 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag standard-tag">Podstawowy</span>
+        <div class="project-title">Kuchnia otwarta na salon</div>
+        <div class="project-meta">Wrocław · 12 m² · Nowa podłoga · Malowanie</div>
+      </div>
+    </div>
+
+    <div class="portfolio-item large reveal" data-category="classic">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto4.jpg" alt="Salon Gdańsk"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🛋️</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Klasyczny</div>
+          <div class="overlay-title">Salon — Gdańsk</div>
+          <div class="overlay-meta"><span>📐 60 m²</span><span>📅 25 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag classic-tag">Klasyczny</span>
+        <div class="project-title">Mieszkanie 3-pokojowe pod klucz</div>
+        <div class="project-meta">Gdańsk · 60 m² · Sufit LED · Deska podłogowa</div>
+      </div>
+    </div>
+
+    <div class="portfolio-item reveal" data-category="premium">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto5.jpg" alt="Dom Poznań"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🏡</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Ekskluzywny</div>
+          <div class="overlay-title">Dom — Poznań</div>
+          <div class="overlay-meta"><span>📐 140 m²</span><span>📅 60 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag premium-tag">Ekskluzywny</span>
+        <div class="project-title">Dom jednorodzinny — Poznań</div>
+        <div class="project-meta">Poznań · 140 m² · Projekt 3D · Smart home</div>
+      </div>
+    </div>
+
+    <div class="portfolio-item reveal" data-category="standard">
+      <div class="portfolio-img">
+        <!-- ЗАМЕНИТЕ: <img src="foto6.jpg" alt="Sypialnia Łódź"> -->
+        <div class="portfolio-placeholder"><div class="placeholder-icon">🛏️</div><div class="placeholder-text">Zdjęcie realizacji</div><div class="placeholder-hint">Zastąp własnym zdjęciem</div></div>
+        <div class="portfolio-overlay">
+          <div class="overlay-tag">Podstawowy</div>
+          <div class="overlay-title">Sypialnia — Łódź</div>
+          <div class="overlay-meta"><span>📐 18 m²</span><span>📅 5 dni</span></div>
+          <a href="#contact" class="overlay-btn">Chcę podobny →</a>
+        </div>
+      </div>
+      <div class="portfolio-info">
+        <span class="project-tag standard-tag">Podstawowy</span>
+        <div class="project-title">Kawalerka — odświeżenie</div>
+        <div class="project-meta">Łódź · 18 m² · Malowanie · Panele</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="portfolio-cta reveal">
+    <p>Masz inne potrzeby? Skontaktuj się — każdy projekt wyceniamy indywidualnie.</p>
+    <a href="#contact" class="btn-primary">Porozmawiajmy o Twoim projekcie</a>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="reviews-header reveal">
+    <div class="section-tag">Opinie</div>
+    <div class="section-title">Co mówią nasi <em>klienci</em></div>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="review-package">Klasyczny</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Remont salonu i kuchni przebiegł sprawnie i w terminie. Ekipa bardzo profesjonalna, materiały wysokiej jakości. Efekt przeszedł moje oczekiwania!</p>
+      <div class="review-author"><div class="review-avatar">AM</div><div><div class="review-name">Anna Malewska</div><div class="review-city">Warszawa</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-package">Ekskluzywny</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Wybrałem pakiet Premium do generalnego remontu domu 140m². Projekt 3D pomógł mi wyobrazić sobie efekt końcowy. Jestem absolutnie zachwycony rezultatem.</p>
+      <div class="review-author"><div class="review-avatar">PK</div><div><div class="review-name">Piotr Kowalczyk</div><div class="review-city">Kraków</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-package">Podstawowy</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Szukałam rzetelnej ekipy w dobrej cenie. Pakiet Podstawowy zaspokił wszystkie moje potrzeby. Czysto, punktualnie i bez niespodzianek w kosztorysie.</p>
+      <div class="review-author"><div class="review-avatar">KN</div><div><div class="review-name">Katarzyna Nowak</div><div class="review-city">Wrocław</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-package">Klasyczny</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Łazienka wygląda jak z katalogu! Płytki ułożone perfekcyjnie, sufity LED robią robotę wieczorami. Polecam wszystkim znajomym.</p>
+      <div class="review-author"><div class="review-avatar">MZ</div><div><div class="review-name">Marek Zając</div><div class="review-city">Gdańsk</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-package">Ekskluzywny</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Smart home w pakiecie Premium to strzał w dziesiątkę. Zarządzam ogrzewaniem i oświetleniem z telefonu. Ekipa zadbała o każdy detal.</p>
+      <div class="review-author"><div class="review-avatar">JS</div><div><div class="review-name">Joanna Sikora</div><div class="review-city">Poznań</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-package">Podstawowy</div>
+      <div class="review-quote">"</div>
+      <p class="review-text">Remont kawalerki zrobiony w 12 dni. Świetna komunikacja, codzienne zdjęcia z postępu prac. Dokładnie to, czego szukałem!</p>
+      <div class="review-author"><div class="review-avatar">TW</div><div><div class="review-name">Tomasz Wiśniewski</div><div class="review-city">Łódź</div><div class="review-stars">★★★★★</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-layout">
+    <div class="reveal">
+      <div class="section-tag">Kontakt</div>
+      <div class="section-title">Zamów <em>bezpłatną</em> wycenę</div>
+      <p class="section-sub">Wypełnij formularz — oddzwonimy w ciągu 2 godzin roboczych i umówimy bezpłatne oględziny.</p>
+      <h3 class="contact-h3">Dane kontaktowe</h3>
+      <div class="contact-detail"><div class="icon">📞</div><span>+48 123 456 789</span></div>
+      <div class="contact-detail"><div class="icon">✉️</div><span>kontakt@[вашдомен].pl</span></div>
+      <div class="contact-detail"><div class="icon">📍</div><span>Działamy na terenie całej Polski</span></div>
+      <div class="contact-detail"><div class="icon">🕐</div><span>Pon–Pt 8:00–18:00, Sob 9:00–14:00</span></div>
+    </div>
+    <div class="contact-form reveal">
+      <div id="formContent">
+        <div class="form-row">
+          <div class="form-field"><label>Imię i nazwisko *</label><input type="text" id="fName" placeholder="Jan Kowalski" required></div>
+          <div class="form-field"><label>Telefon *</label><input type="tel" id="fPhone" placeholder="+48 ..." required></div>
+        </div>
+        <div class="form-field"><label>Email</label><input type="email" id="fEmail" placeholder="jan@example.com"></div>
+        <div class="form-row">
+          <div class="form-field"><label>Miasto *</label><input type="text" id="fCity" placeholder="Warszawa" required></div>
+          <div class="form-field"><label>Powierzchnia (m²) *</label><input type="number" id="fArea" placeholder="60" min="1" required></div>
+        </div>
+        <div class="form-field">
+          <label>Pakiet *</label>
+          <select id="fPackage">
+            <option value="Podstawowy">Podstawowy — 450 zł/m²</option>
+            <option value="Klasyczny">Klasyczny — 750 zł/m²</option>
+            <option value="Ekskluzywny">Ekskluzywny — 1200 zł/m²</option>
+          </select>
+        </div>
+        <div class="form-field"><label>Opis zakresu prac</label><textarea id="fDesc" placeholder="Opisz co chciałbyś/chciałabyś odremontować..."></textarea></div>
+        <label class="form-checkbox"><input type="checkbox" id="fConsent" required><span>Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z <a href="#" onclick="openModal('privacyModal')">Polityką prywatności</a> w celu odpowiedzi na zapytanie. *</span></label>
+        <label class="form-checkbox"><input type="checkbox" id="fTerms" required><span>Akceptuję <a href="#" onclick="openModal('termsModal')">Regulamin serwisu</a> i potwierdzam zapoznanie się z <a href="#" onclick="openModal('rodoModal')">Klauzulą RODO</a>. *</span></label>
+        <button class="form-submit" id="submitBtn" onclick="submitForm()">Wyślij zapytanie →</button>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <div class="check">✓</div>
+        <h4>Dziękujemy!</h4>
+        <p>Twoje zapytanie zostało wysłane.<br>Oddzwonimy w ciągu 2 godzin roboczych.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="nav-logo">[ВАШ <span>БРЕНД]</span></a>
+      <p>Profesjonalne remonty mieszkań, domów i lokali użytkowych w całej Polsce. Jakość i terminowość gwarantowane.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Nawigacja</h4>
+      <ul>
+        <li><a href="#home">Strona główna</a></li>
+        <li><a href="#packages">Pakiety cenowe</a></li>
+        <li><a href="#calculator">Kalkulator</a></li>
+        <li><a href="#portfolio">Realizacje</a></li>
+        <li><a href="#reviews">Opinie klientów</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Dokumenty</h4>
+      <ul>
+        <li><a href="#" onclick="openModal('privacyModal')">Polityka prywatności</a></li>
+        <li><a href="#" onclick="openModal('termsModal')">Regulamin</a></li>
+        <li><a href="#" onclick="openModal('rodoModal')">Klauzula RODO</a></li>
+        <li><a href="#" onclick="openModal('cookieModal')">Polityka cookies</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 [ВАШ БРЕНД]. Wszelkie prawa zastrzeżone.</span>
+    <div class="footer-legal">
+      <a onclick="openModal('privacyModal')">Polityka prywatności</a>
+      <a onclick="openModal('termsModal')">Regulamin</a>
+      <a onclick="openModal('rodoModal')">RODO</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="privacyModal"><div class="modal"><button class="modal-close" onclick="closeModal('privacyModal')">✕</button><h2>Polityka Prywatności</h2><p><strong>Obowiązuje od: 1 stycznia 2025</strong></p><h3>1. Administrator danych</h3><p>Administratorem danych jest [ВАШ БРЕНД]. Kontakt: kontakt@[вашдомен].pl</p><h3>2. Jakie dane zbieramy</h3><ul><li>Imię i nazwisko</li><li>Numer telefonu</li><li>Adres e-mail</li><li>Adres lokalizacji (miasto)</li><li>Dane dotyczące nieruchomości</li></ul><h3>3. Cel przetwarzania danych</h3><p>Twoje dane są przetwarzane wyłącznie w celu odpowiedzi na zapytanie, przygotowania wyceny i wykonania umowy o usługi remontowe.</p><h3>4. Podstawa prawna</h3><p>Art. 6 ust. 1 lit. a) RODO (zgoda) oraz art. 6 ust. 1 lit. b) RODO (wykonanie umowy).</p><h3>5. Okres przechowywania</h3><p>Dane przechowujemy przez okres niezbędny do realizacji usługi oraz przez 5 lat po jej zakończeniu.</p><h3>6. Twoje prawa</h3><p>Masz prawo do dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, wniesienia sprzeciwu oraz przenoszenia danych.</p><h3>7. Przekazywanie danych</h3><p>Nie sprzedajemy danych osobowych. Przekazujemy je wyłącznie podwykonawcom na podstawie umów powierzenia.</p></div></div>
+
+<div class="modal-overlay" id="termsModal"><div class="modal"><button class="modal-close" onclick="closeModal('termsModal')">✕</button><h2>Regulamin Serwisu</h2><p><strong>Obowiązuje od: 1 stycznia 2025</strong></p><h3>§1. Postanowienia ogólne</h3><p>Niniejszy Regulamin określa zasady korzystania ze strony [ВАШ БРЕНД] oraz zamawiania usług remontowych.</p><h3>§2. Usługi</h3><p>Świadczymy usługi remontowo-budowlane w ramach trzech pakietów: Podstawowego, Klasycznego i Ekskluzywnego.</p><h3>§3. Zamówienie usługi</h3><ul><li>Złożenie zapytania przez formularz nie jest wiążącą umową</li><li>Umowa zawierana jest po oględzinach i podpisaniu kontraktu</li><li>Ceny kalkulatora mają charakter szacunkowy</li><li>Dokładna wycena przygotowywana jest po wizji lokalnej</li></ul><h3>§4. Płatności</h3><p>Płatność: 30% zaliczka, 40% w połowie prac, 30% po odbiorze. Faktury VAT wystawiane na życzenie.</p><h3>§5. Gwarancja</h3><p>Podstawowy: 1 rok. Klasyczny: 2 lata. Ekskluzywny: 5 lat.</p><h3>§6. Reklamacje</h3><p>Reklamacje zgłaszamy pisemnie na kontakt@[вашдомен].pl w terminie 14 dni od stwierdzenia wady.</p><h3>§7. Postanowienia końcowe</h3><p>W sprawach nieuregulowanych zastosowanie mają przepisy Kodeksu Cywilnego.</p></div></div>
+
+<div class="modal-overlay" id="rodoModal"><div class="modal"><button class="modal-close" onclick="closeModal('rodoModal')">✕</button><h2>Klauzula Informacyjna RODO</h2><p>Zgodnie z art. 13 RODO (UE) 2016/679 informujemy:</p><h3>Administrator</h3><p>[ВАШ БРЕНД], kontakt: kontakt@[вашдомен].pl</p><h3>Cele i podstawy przetwarzania</h3><ul><li>Odpowiedź na zapytanie — zgoda (art. 6 ust. 1 lit. a)</li><li>Realizacja umowy — wykonanie umowy (art. 6 ust. 1 lit. b)</li><li>Obowiązki podatkowe — obowiązek prawny (art. 6 ust. 1 lit. c)</li></ul><h3>Prawa osoby, której dane dotyczą</h3><ul><li>Prawo dostępu (art. 15)</li><li>Prawo do sprostowania (art. 16)</li><li>Prawo do usunięcia (art. 17)</li><li>Prawo do ograniczenia przetwarzania (art. 18)</li><li>Prawo do przenoszenia danych (art. 20)</li><li>Prawo do sprzeciwu (art. 21)</li></ul><h3>Prawo do skargi</h3><p>Masz prawo wniesienia skargi do UODO, ul. Stawki 2, 00-193 Warszawa.</p></div></div>
+
+<div class="modal-overlay" id="cookieModal"><div class="modal"><button class="modal-close" onclick="closeModal('cookieModal')">✕</button><h2>Polityka Cookies</h2><h3>Czym są pliki cookies?</h3><p>Pliki cookies to małe pliki tekstowe zapisywane na Twoim urządzeniu. Nie zawierają danych osobowych.</p><h3>Rodzaje cookies</h3><ul><li><strong>Niezbędne</strong> — prawidłowe działanie strony</li><li><strong>Analityczne</strong> — statystyki odwiedzin</li><li><strong>Funkcjonalne</strong> — zapamiętanie preferencji</li></ul><h3>Zarządzanie cookies</h3><p>Możesz wyłączyć cookies w ustawieniach przeglądarki. Trwałe cookies przechowywane są do 12 miesięcy.</p></div></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
